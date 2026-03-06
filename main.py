@@ -1,3 +1,4 @@
+# simple grayscale conversion script
 import os
 import cv2
 ip="images"

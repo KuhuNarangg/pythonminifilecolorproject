@@ -8,7 +8,7 @@ output_folder = "bw_images"
 if not os.path.exists(output_folder):
     os.mkdir(output_folder)
 
-count = 0
+count = 0  # Initialize processed image counter
 
 for file in os.listdir(input_folder):
 
