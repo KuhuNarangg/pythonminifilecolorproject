@@ -20,3 +20,6 @@ def convert_to_grayscale(input_dir, output_dir):
 if __name__ == "__main__":
     convert_to_grayscale("images", "gray_images")
     print("Batch processing complete.")
+if __name__ == "__main__":
+    convert_to_grayscale("images", "gray_images")
+    print("Batch processing complete.")
