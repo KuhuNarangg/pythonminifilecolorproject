@@ -40,6 +40,3 @@ def process_images(input_dir, output_dir, target_size=(300, 300)):
         processed_count += 1
 
     print(f"Finished processing {processed_count} images.")
-
-if __name__ == "__main__":
-    process_images("images", "bw_images")
